@@ -1,6 +1,6 @@
 // function showMessage()
 // {
-//     alert('Миру - мир!')
+//     console.log('Миру - мир!');
 // }
 
 // showMessage()
@@ -39,7 +39,7 @@
 // function sayHi(from, text) {
 
 //     from = '*' + from + '*'; // немного украсим "from" alert( from + ': ' + text );
-//   }
+// }
   
 //   let from = "Аня";
   
@@ -62,16 +62,29 @@
 
 // console.log(sum(1, 2));  //3
 
-function sayOne() {
-    console.log('One');
-}
+// function sayOne() {
+//     console.log('One');
+// }
 
-let sayTwo = function() {
-    console.log('Two');
-}
+// let sayTwo = function() {
+//     console.log('Two');
+// }
 
-let sayThree = () => console.log('Three');
+// let sayThree = () => console.log('Three');
 
-sayOne();
-sayTwo();
-sayThree();
+// sayOne();
+// sayTwo();
+// sayThree();
+
+
+// пример колбэк-функции (обратного вызова)
+function greeting(name) {
+    alert('Hello, ' + name);
+  }
+  
+  function processUserInput(callback) {
+    var name = prompt('Please enter your name.');
+    callback(name);
+  }
+  
+  processUserInput(greeting);
