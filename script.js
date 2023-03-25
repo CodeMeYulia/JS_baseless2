@@ -1,10 +1,5 @@
-function myMessage(){
-    console.log('Я учу Java Script');
-}
-myMessage();
-
 let offset = 0;
-const sliderLine = document.querySelector('.slider-line');
+const sliderLine = document.querySelector('.gallery__slider-line');
 
 document.querySelector('.slider-next').addEventListener('click', function(){
   offset += 350;
@@ -22,4 +17,7 @@ document.querySelector('.slider-prew').addEventListener('click', function(){
     sliderLine.style.left = -offset + 'px'; 
   })
 
-  
+  function myMessage(){
+    console.log("Я учу JavaScript!")
+  }
+//   myMessage();
