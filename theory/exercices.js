@@ -78,13 +78,26 @@
 
 
 // пример колбэк-функции (обратного вызова)
-function greeting(name) {
-    alert('Hello, ' + name);
-  }
+// function greeting(name) {
+//     alert('Hello, ' + name);
+//   }
   
-  function processUserInput(callback) {
-    var name = prompt('Please enter your name.');
-    callback(name);
-  }
+//   function processUserInput(callback) {
+//     var name = prompt('Как тебя зовут?');
+//     callback(name);
+//   }
   
-  processUserInput(greeting);
+//   processUserInput(greeting);
+
+
+//practica
+//Создайте страницу, подключите скрипт. Создайте функцию, которая выведет сообщение в консоли «Я учу JavaScript!».
+
+// function myMessage(){
+//   console.log('Я учу Java Script');
+// }
+// myMessage();
+
+
+
+
